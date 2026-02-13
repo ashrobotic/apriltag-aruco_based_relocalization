@@ -24,7 +24,8 @@ The system supports:
 ✅ Map-frame pose computation  
 ✅ `/initialpose` publishing for Nav2/AMCL  
 ✅ TF broadcast of relocalized frame  
-✅ Service call for manual relocalization  
+✅ Service call for manual relocalization  ros2 service call /relocalize_once std_srvs/srv/Trigger
+
 
 ---
 
